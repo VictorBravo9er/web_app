@@ -27,3 +27,10 @@ span {
 .para-style {
     color: blue;
 }
+#item-1 {
+    color: green;
+}
+
+#item-1 {
+    font-style: italic;
+}
