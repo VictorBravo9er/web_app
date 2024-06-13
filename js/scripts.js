@@ -8,7 +8,7 @@ document.querySelector("button").onclick = () => {
     let prevEl = document.querySelector("#txtEl") 
     if (prevEl){
         prevEl.textContent = content;
-        return
+        return;
     }
     const newElem = document.createElement('p');
     newElem.textContent = content;
@@ -19,3 +19,4 @@ document.querySelector("button").onclick = () => {
 // document.querySelector("button").onmouseover
 
 // document.querySelector("button").addEventListener("click", (this, ev) => {});
+document.querySelector("button")
