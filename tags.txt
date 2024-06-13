@@ -1,0 +1,14 @@
+tag elements
+
+normal:
+<p>
+<h...> from h1 to h6
+<div>
+<span>
+<strong>
+
+self closing:
+<img>
+<input>
+<meta>
+<link>

@@ -1,0 +1,29 @@
+.para_class1 {
+    color: red;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.green_text{
+    color: green;
+}
+
+span {
+    color: blueviolet;
+}
+
+.image_width {
+    width: 200;
+    border-image-width: 0%;
+}
+
+.image_style {
+    border-radius: 10%;
+    border: 10px;
+}
+
+.para-style {
+    color: blue;
+}
