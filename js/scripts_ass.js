@@ -36,6 +36,7 @@ function showJoke() {
     // Value is a string representing the joke
     clearAll();
     const randomJokeText = getRandomData('jokes');
+    
     const paragraph = document.createElement("p");
     paragraph.textContent = randomJokeText;
     paragraph.id = dispContnet;
