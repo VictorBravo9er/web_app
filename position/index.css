@@ -1,0 +1,45 @@
+body, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background-color: #010326;
+    color: white;
+    z-index: 1;
+}
+
+.main-content {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h4 {
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.squares {
+    height: 200px;
+    width: 200px;
+    background-color: #0D2D8C;
+    margin: 10px;
+}
+
+.relatively-positioned {
+    position: relative;
+}
+
+.absolute-positioned {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}

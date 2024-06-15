@@ -1,0 +1,42 @@
+html {
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.container div{
+    text-align: center;
+    border: 2px, solid black;
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: yellow;
+}
+
+.box {
+    height: 200%;
+    flex: 50%;
+}
+
+#box-1{
+    margin: 0.2%;
+    background-color: magenta;
+    border-color: brown;
+    border-radius: 5%;
+}
+
+#box-2{
+    margin: 0.2%;
+    background-color: brown;
+    border-color: magenta;
+    border-radius: 5%;
+}
+
+
+*, *::before, *::after {
+    margin: inherit;
+}
