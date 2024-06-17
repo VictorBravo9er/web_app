@@ -1,9 +1,12 @@
 html{
     margin: 0;
     box-sizing: border-box;
+    font-family: Oswald;
 }
 *, *:after, * :before {
     box-sizing: inherit;
+    /* font: inherit; */
+    font-family: inherit;
 }
 
 .outer-card{
