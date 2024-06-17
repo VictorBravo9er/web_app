@@ -1,0 +1,112 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+}
+*, *:after, * :before {
+    box-sizing: inherit;
+}
+
+.outer-card{
+    width: 80%;
+    position: relative;
+    top: 20px;
+    left:10%;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.intro {
+    align-items: start;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro h2 {
+    color: #00f7ff;
+    margin-bottom: 5px;
+
+}
+
+.intro h4{
+    color: #18d318;
+    margin-bottom: 3px;
+}
+
+.intro p{
+    color: #666666;
+    /* margin: 0; */
+    margin-bottom: 2px;
+}
+
+.blocks {
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    
+}
+.blocks > div{
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+#subscription {
+    flex: 50%;
+    background-color: #009488;
+    padding-top: 20px;
+    /* height: 100;
+    margin: 0; */
+}
+#subscription h2, h4{
+    display: inline;
+    margin-bottom: 30px;
+}
+
+#subscription h4 {
+    size: 0.5rem;
+}
+
+#price {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#why-us {
+    flex: 50%;
+    background-color: #00a2b8;
+    padding: 20px;
+    /* align-items: ; */
+    padding-left: 40px;
+}
+
+#why-us ul{
+    margin: 0;
+    /* padding: 0%, 10%, 0%, 10%; */
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0%;
+    bottom: -30px;
+    width: 100%;
+    height: 40px;
+    background-color: #b3ff00;
+    border-radius: 6px;
+    /* align-self: center; */
+    /* vertical-align: bottom; */
+}
+
+button:hover {
+    color: white;
+    cursor: crosshair;
+    width: calc(width+30px);
+    border-radius: 10px;
+    /* border: 5px;
+    border-color: black; */
+}
