@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    margin: 0;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: blueviolet;
+    /* content-visibility: hidden */
+}
+.sub-block {
+    background-color: azure;
+    margin: 2px;
+    height: fit-content;
+    width: fit-content;
+}
