@@ -1,0 +1,81 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2%;
+}
+
+/* READ THIS:
+    
+Since we have set box-sizing to "border-box" on all HTML elements (see top of stylesheet), this means that the sum of the inner content, padding, and border will equal the total width and height of the item.
+
+We set the border to 5px on all sides.  This means that the border takes up 10px of space in both the height and width directions.  Therefore, the total "available space" for grid items in this container is 300px in both directions.
+
+310px - (5px + 5px) = 300px
+
+Remember this as we go through the tutorial.
+*/
+.grid-container {
+    width: 400px;
+    padding: 3px;
+    height: 400px;
+    border: 5px solid #212226;
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+}
+
+.grid-item {
+    background-color: #212226;
+    color: #71D99E;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gi-1 {
+    color: #1E4040;
+    background-color: #71D99E;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.gi-2 {
+    color: #71D99E;
+    background-color: #3A8C7D;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.gi-3 {
+    color: #71D99E;
+    background-color: #255954;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+/* 
+Basic grid item styles.  By using Flexbox, we can center the numbers in each grid item for aesthetic purposes.
+
+You should be comfortable with these.  If you aren't, please go back and take my basic CSS and Flexbox tutorials.
+
+Basic CSS - https://bit.ly/39TbwrZ 
+Flexbox - https://bit.ly/3mcK9Oe 
+*/
+
+.grid-container {
+    gap: 2px;
+    grid-auto-flow: column;
+}
