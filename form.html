@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="page-heading">Form</h1>
+    <form action="/form_submit" method="post">
+      <fieldset class="form">
+        <legend>Add User</legend>
+        <!---->
+        <div class="form-item">
+          <label>Full Name</label>
+          <input type="text" name="Full Name" id="full-name" />
+        </div>
+
+        <div class="form-item">
+          <label>E-mail</label>
+          <input type="email" name="E-mail" id="e-mail" />
+        </div>
+
+        <div class="form-item">
+          <label>Role</label>
+          <select name="Role" id="role">
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label>Expiration</label>
+          <input type="date" name="Expiration" id="expiration" />
+        </div>
+
+        <div class="form-item">
+          <label>Expiration</label>
+          <textarea name="" id="" cols="30" rows="4"></textarea>
+        </div>
+
+        <div class="form-item">
+          <button>Submit</button>
+        </div>
+        <!---->
+      </fieldset>
+    </form>
+  </body>
+</html>
