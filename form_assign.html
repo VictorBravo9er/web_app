@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form Submission</h1>
+    <form action="/submission-form" method="post">
+      <fieldset class="form">
+        <legend>Registration Details</legend>
+        <!--  -->
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+        </div>
+        <div class="form-item">
+          <label>Status</label>
+          <select name="status" id="">
+            <option value="student">Student</option>
+            <option value="student">Student</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <label>Favourite lang...</label>
+          <div>
+            <input type="radio" name="Favourite lang" id="r1" value="html" />
+            <label for="r1">HTML</label>
+            <input type="radio" name="Favourite lang" id="r2" value="css" />
+            <label for="r2">CSS</label>
+            <input type="radio" name="Favourite lang" id="r3" value="js" />
+            <label for="r3">JS</label>
+          </div>
+        </div>
+        <div class="form-item">
+          <label>Comment</label>
+          <textarea cols="50" rows="4"></textarea>
+        </div>
+
+        <div class="form-item">
+          <label>Signup for Newsletter</label>
+          <input type="checkbox" name="Newsletter" value="nwl" />
+        </div>
+        <div class="form-item">
+          <label>Agree to TnC*</label>
+          <input type="checkbox" name="Newsletter" value="nwl" />
+        </div>
+        <button type="submit">Submit</button>
+        <!--  -->
+      </fieldset>
+    </form>
+  </body>
+</html>
